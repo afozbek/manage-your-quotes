@@ -11,7 +11,7 @@ export default {
     data() {
         return {
             maxQuote: 10,
-            quotes: ["Simple quote"]
+            quotes: [{ id: 1, text: "Simple quote" }]
         }
     },
     components: {
