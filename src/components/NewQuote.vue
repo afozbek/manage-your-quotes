@@ -30,7 +30,10 @@ export default {
         }
     },
     methods: {
-        createQuote() {}
+        createQuote() {
+            this.$emit("quoteCreated", this.quote)
+            this.quote = ""
+        }
     }
 }
 </script>
